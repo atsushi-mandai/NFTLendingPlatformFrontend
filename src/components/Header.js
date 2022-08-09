@@ -1,9 +1,8 @@
-import React, { useState } from "react";
-import { BrowserRouter, Link } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const component = ({ connect, connectWallet }) => {
   return (
-    //<BrowserRouter>
     <div className="header">
       <div className="headerTitle">
         <h1>NFT LENDING PLATFORM</h1>
